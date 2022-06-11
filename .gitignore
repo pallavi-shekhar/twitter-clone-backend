@@ -18,6 +18,7 @@ coverage
 
 # Environment varibles
 *.env
+*.evn.test
 
 # File generated in macOS
 .DS_Store
