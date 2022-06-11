@@ -18,4 +18,6 @@ coverage
 
 # Environment varibles
 *.env
-*.env.*
+
+# File generated in macOS
+.DS_Store
