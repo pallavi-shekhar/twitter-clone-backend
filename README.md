@@ -265,7 +265,7 @@ I am Pallavi, and I have created this project for my learning purpose. I aimed t
     ```
     POST /v1/tweet HTTP/1.1
     Host: localhost:3000
-    x-api-key: TODO
+    x-api-key: GCMUDiuY5a7WvyUNt9n3QztToSHzK7Uj
     Content-Type: application/json
     Authorization: Bearer <access_token> 
     ```
