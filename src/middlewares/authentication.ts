@@ -3,7 +3,7 @@ import { ProtectedRequest } from '../types/app-request';
 import UserRepo from '../database/repository/UserRepo';
 import { AuthFailureError, AccessTokenError, TokenExpiredError } from '../core/ApiError';
 import JWT from '../core/JWT';
-import { getAccessToken, validateTokenData } from '../core/authutils';
+import { getAccessToken, validateTokenData } from '../core/authUtils';
 import { Types } from 'mongoose';
 import validator, { ValidationSource } from './validator';
 import schema from './schema';

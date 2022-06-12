@@ -5,7 +5,7 @@ import { BadRequestError } from "../../core/ApiError";
 import { SuccessResponse } from '../../core/ApiResponse';
 import UserRepo from '../../database/repository/UserRepo';
 import User from '../../database/model/User';
-import { createTokens } from '../../core/authutils';
+import { createTokens } from '../../core/authUtils';
 import asyncHandler from '../../middlewares/asyncHandler';
 
 const signUp = asyncHandler(async (req: ProtectedRequest, res) => {

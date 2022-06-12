@@ -134,7 +134,7 @@ I am Pallavi, and I have created this project for my learning purpose. I aimed t
 │   │   ├── ApiError.ts
 │   │   ├── ApiResponse.ts
 │   │   ├── JWT.ts
-│   │   └── authutils.ts
+│   │   └── authUtils.ts
 │   ├── database
 │   │   ├── index.ts
 │   │   ├── model

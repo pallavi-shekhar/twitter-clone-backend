@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import { ProtectedRequest } from "app-request";
-import { validateTokenData, createTokens, getAccessToken } from '../../core/authutils';
+import { validateTokenData, createTokens, getAccessToken } from '../../core/authUtils';
 import JWT from '../../core/JWT';
 import { TokenRefreshResponse } from '../../core/ApiResponse';
 import { AuthFailureError } from '../../core/ApiError';

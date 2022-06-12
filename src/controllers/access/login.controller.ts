@@ -3,7 +3,7 @@ import _ from 'lodash';
 import { AuthFailureError, BadRequestError } from "../../core/ApiError";
 import { SuccessResponse } from '../../core/ApiResponse';
 import UserRepo from '../../database/repository/UserRepo';
-import { createTokens } from '../../core/authutils';
+import { createTokens } from '../../core/authUtils';
 import asyncHandler from '../../middlewares/asyncHandler';
 
 const login = asyncHandler(async (req,res) => {
